@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramekobo — クリエイティブスタジオ</title>
+<meta name="description" content="Ramekobo は、まだ見たことのないものを生み出していく個人クリエイティブスタジオです。">
+<style>
+:root{
+  --bg:#ffffff; --bg-soft:#f5f6fa; --text:#1b1b1f; --muted:#5c5f6b;
+  --accent:#4f46e5; --accent-2:#7c3aed; --border:#e6e7ee;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP","Yu Gothic UI",Meiryo,sans-serif;
+  color:var(--text);background:var(--bg);line-height:1.85;-webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:880px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;background:rgba(255,255,255,.85);backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border);z-index:10}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-weight:800;font-size:20px;letter-spacing:.02em}
+.brand span{background:linear-gradient(90deg,var(--accent),var(--accent-2));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.lang{font-size:13px;color:var(--muted)}
+.lang a{color:var(--muted)}
+.lang .active{color:var(--text);font-weight:700}
+.hero{padding:104px 0 76px;text-align:center}
+.hero h1{font-size:44px;line-height:1.35;letter-spacing:.01em;margin-bottom:22px;font-weight:800}
+.hero h1 span{background:linear-gradient(90deg,var(--accent),var(--accent-2));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:18px;color:var(--muted);max-width:580px;margin:0 auto}
+section.block{padding:52px 0;border-top:1px solid var(--border)}
+.block h2{font-size:22px;margin-bottom:18px;font-weight:700}
+.block p{color:var(--muted);margin-bottom:12px}
+.card{background:var(--bg-soft);border:1px solid var(--border);border-radius:16px;padding:30px}
+.badge{display:inline-block;font-size:12px;font-weight:700;color:var(--accent);
+  background:#eef0ff;border-radius:999px;padding:5px 13px;margin-bottom:14px;letter-spacing:.04em}
+.contact a{font-weight:600}
+footer{border-top:1px solid var(--border);padding:34px 0;color:var(--muted);font-size:14px}
+.foot{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center}
+.foot-links a{color:var(--muted);margin-left:18px}
+@media(max-width:600px){
+  .hero{padding:68px 0 50px}
+  .hero h1{font-size:31px}
+  .hero p{font-size:16px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><span>Ramekobo</span></div>
+    <nav class="lang"><a class="active" href="./index.html">日本語</a> / <a href="./en/index.html">English</a></nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero container">
+    <h1>世界がまだ見たことのない、<br><span>おもしろい</span>を。</h1>
+    <p>Ramekobo は、ジャンルや形にとらわれず「まだ見たことのないもの」を生み出していく個人クリエイティブスタジオです。モバイルゲームは、その最初の表現。</p>
+  </section>
+
+  <section class="block container">
+    <h2>About</h2>
+    <p>「見たことのないものを想像していく」── それが Ramekobo の出発点です。形やジャンルにはこだわりません。人がまだ出会っていない驚きや楽しさを、ひとつずつ形にしていく。いまはその第一歩として、モバイルゲームをつくっています。</p>
+  </section>
+
+  <section class="block container">
+    <h2>Products</h2>
+    <div class="card">
+      <span class="badge">IN DEVELOPMENT</span>
+      <p style="color:var(--text);font-weight:700;margin-bottom:6px">新作モバイルゲーム</p>
+      <p>Ramekobo の最初のプロジェクトとして、新作タイトルを開発中です。続報をお待ちください。</p>
+    </div>
+  </section>
+
+  <section class="block container contact">
+    <h2>Contact</h2>
+    <p>お問い合わせは <a href="mailto:contact@ramekobo.com">contact@ramekobo.com</a> までお気軽にどうぞ。</p>
+  </section>
+</main>
+
+<footer>
+  <div class="container foot">
+    <div>© 2026 Ramekobo</div>
+    <div class="foot-links">
+      <a href="./privacy.html">プライバシーポリシー</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
