@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー — Ramekobo</title>
+<meta name="description" content="Ramekobo のプライバシーポリシー">
+<style>
+:root{
+  --bg:#ffffff; --bg-soft:#f5f6fa; --text:#1b1b1f; --muted:#5c5f6b;
+  --accent:#4f46e5; --accent-2:#7c3aed; --border:#e6e7ee;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP","Yu Gothic UI",Meiryo,sans-serif;
+  color:var(--text);background:var(--bg);line-height:1.9;-webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent);text-decoration:none;word-break:break-all}
+a:hover{text-decoration:underline}
+.container{max-width:760px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;background:rgba(255,255,255,.85);backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border);z-index:10}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-weight:800;font-size:20px;letter-spacing:.02em}
+.brand a{color:inherit}
+.brand span{background:linear-gradient(90deg,var(--accent),var(--accent-2));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.lang{font-size:13px;color:var(--muted)}
+.lang a{color:var(--muted)}
+.lang .active{color:var(--text);font-weight:700}
+.doc{padding:56px 0 40px}
+.doc h1{font-size:30px;font-weight:800;margin-bottom:8px}
+.doc .meta{color:var(--muted);font-size:14px;margin-bottom:36px}
+.doc .lead{color:var(--muted);margin-bottom:36px}
+.doc h2{font-size:19px;font-weight:700;margin:34px 0 12px;padding-top:18px;border-top:1px solid var(--border)}
+.doc p{color:#33343c;margin-bottom:12px}
+.doc ul{margin:0 0 14px 1.2em;color:#33343c}
+.doc li{margin-bottom:7px}
+.doc .note{background:var(--bg-soft);border:1px solid var(--border);border-radius:12px;
+  padding:16px 18px;color:var(--muted);font-size:14px}
+.doc .sdk{font-weight:600;color:var(--text)}
+footer{border-top:1px solid var(--border);padding:34px 0;color:var(--muted);font-size:14px;margin-top:24px}
+.foot{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center}
+.foot-links a{color:var(--muted);margin-left:18px}
+@media(max-width:600px){.doc h1{font-size:25px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><a href="./index.html"><span>Ramekobo</span></a></div>
+    <nav class="lang"><a class="active" href="./privacy.html">日本語</a> / <a href="./en/privacy.html">English</a></nav>
+  </div>
+</header>
+
+<main class="container doc">
+  <h1>プライバシーポリシー</h1>
+  <p class="meta">制定日：2026年6月16日 ／ 最終更新日：2026年6月16日</p>
+
+  <p class="lead">Ramekobo（以下「当スタジオ」といいます）は、当スタジオが提供するモバイルアプリケーションおよび本ウェブサイト（以下「本サービス」といいます）における利用者の情報の取扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます）を定めます。</p>
+
+  <h2>1. 取得する情報</h2>
+  <p>本サービスは、アカウント登録なしでご利用いただけます。当スタジオが、氏名・住所・電話番号・メールアドレス等の情報を利用者から直接取得することは原則ありません。一方で、本サービスのご利用に伴い、以下の情報が自動的に取得・処理される場合があります。</p>
+  <ul>
+    <li>端末・利用環境に関する情報（OS の種類およびバージョン、端末モデル、言語・地域設定、ネットワーク情報など）</li>
+    <li>広告識別子（Advertising ID、IDFA など）</li>
+    <li>本サービスの利用状況・操作ログ（プレイ状況、アプリ内イベント、利用時間など）</li>
+    <li>IP アドレス</li>
+    <li>アプリの不具合・クラッシュに関する情報（該当する場合）</li>
+  </ul>
+  <p class="note">ゲームの進行状況やセーブデータは、お客様の端末内に保存され、当スタジオのサーバーへ送信・保管されることはありません。</p>
+
+  <h2>2. 利用目的</h2>
+  <ul>
+    <li>広告の配信および最適化（パーソナライズ広告を含みます）</li>
+    <li>本サービスの利用状況の分析、ならびに品質および利便性の向上</li>
+    <li>不具合の把握および改善</li>
+    <li>利用規約に違反する行為への対応</li>
+  </ul>
+
+  <h2>3. 第三者が提供するサービス（SDK）の利用</h2>
+  <p>本サービスは、以下の第三者が提供するサービスを利用しており、これらのサービスを通じて、上記の情報が当該第三者により取得・処理される場合があります。各社による情報の取扱いは、各社のプライバシーポリシーに従います。</p>
+  <ul>
+    <li><span class="sdk">Google AdMob</span>（広告の配信）／ 提供：Google LLC</li>
+    <li><span class="sdk">Google アナリティクス for Firebase</span>（利用状況の分析）／ 提供：Google LLC</li>
+  </ul>
+  <p>Google による情報の利用については、以下をご参照ください。</p>
+  <ul>
+    <li>Google プライバシーポリシー：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+    <li>Google のサービスを使用するサイトやアプリから収集した情報の Google による使用：<a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
+  </ul>
+
+  <h2>4. 広告について</h2>
+  <p>本サービスでは、Google AdMob 等の第三者配信事業者による広告を表示します。これらの事業者は、利用者の興味・関心に応じた広告（パーソナライズ広告）を表示するために、広告識別子等を利用する場合があります。パーソナライズ広告は、お使いの端末の設定から無効化（オプトアウト）できます。</p>
+  <ul>
+    <li>Android：「設定」→「Google」→「広告」から、広告 ID のリセットまたは広告のパーソナライズのオプトアウトが可能です。</li>
+    <li>iOS：「設定」→「プライバシーとセキュリティ」→「トラッキング」および「Apple の広告」から設定が可能です。</li>
+    <li>Google 広告設定：<a href="https://adssettings.google.com">https://adssettings.google.com</a></li>
+  </ul>
+
+  <h2>5. お子様のプライバシー</h2>
+  <p>本サービスは、13 歳未満のお子様を主たる対象としたものではありません。当スタジオは、13 歳未満のお子様から故意に個人情報を取得することはありません。万一、保護者の同意なく 13 歳未満のお子様の情報を取得していたことが判明した場合には、速やかに当該情報を削除する等の措置を講じます。</p>
+
+  <h2>6. 情報の国外への移転</h2>
+  <p>前記の第三者が提供するサービスの利用に伴い、取得された情報は、米国を含む日本国外のサーバーにおいて保管・処理される場合があります。</p>
+
+  <h2>7. 情報の保持および削除</h2>
+  <p>お客様の端末内に保存されたデータは、アプリのアンインストール等により削除されます。第三者が提供するサービスにより取得された情報の保持期間は、各社のポリシーに従います。</p>
+
+  <h2>8. 利用者の権利</h2>
+  <p>適用される法令に基づき、利用者は、ご自身に関する情報へのアクセス、訂正または削除等を求める権利を有する場合があります。ご要望は、下記のお問い合わせ先までご連絡ください。</p>
+
+  <h2>9. 安全管理措置</h2>
+  <p>当スタジオは、取得した情報の漏えい、滅失または毀損の防止その他の安全管理のために、必要かつ適切な措置を講じます。</p>
+
+  <h2>10. 本ポリシーの変更</h2>
+  <p>本ポリシーの内容は、法令の変更または本サービスの内容の変更に応じて、予告なく変更されることがあります。変更後の本ポリシーは、本ページに掲載した時点から効力を生じるものとします。</p>
+
+  <h2>11. 事業者情報・お問い合わせ</h2>
+  <p>事業者名：Ramekobo<br>
+  お問い合わせ：<a href="mailto:contact@ramekobo.com">contact@ramekobo.com</a></p>
+</main>
+
+<footer>
+  <div class="container foot">
+    <div>© 2026 Ramekobo</div>
+    <div class="foot-links">
+      <a href="./index.html">ホーム</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
